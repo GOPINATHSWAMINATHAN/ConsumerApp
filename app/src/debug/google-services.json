@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342663663763",
+    "firebase_url": "https://location-95761.firebaseio.com",
+    "project_id": "location-95761",
+    "storage_bucket": "location-95761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342663663763:android:11116d015c711bf6",
+        "android_client_info": {
+          "package_name": "io.hypertrack.sendeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342663663763-qbs4r8a6ga01jnglvhmg11t2dt74cbsm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.hypertrack.sendeta",
+            "certificate_hash": "7ee4bd6dd0147ccdba7e0a0f24b42751c35ad1e2"
+          }
+        },
+        {
+          "client_id": "342663663763-2tbg7kv70i4urhqm8tmljs4md69tt8qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsjjN2Xjsgs6PtjCnnJkorIzV1G9jroEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342663663763-2tbg7kv70i4urhqm8tmljs4md69tt8qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.4.0_577651f71fd7014ebb76dd81a2939d3702710a25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/74e28e2525c685df832b867b12b4871d728364c6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_194afa7ba963865bf91912ed0f5f3a3dccd549b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/5f868b6d4fe059c983b2229c57a442044ce4bde8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64d12570001b9bc8033e870107296475fc406930/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/fd2bf922ec7e405cb6d6a2e402d5c380efd7cd8b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e3e366ad917b1fd4de5f1a0626d4e9af903dba52">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b742199a3ad70a7846f000fc97d52fe072a77f70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/19db627d3eac7e583b0d5d3598add40a1d44c5db/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0866817a36ed137d69ec9894358c64ce03df83f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/e60905d3498df5dbf52b6b4e228bb6c5f3c43733/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9eb846181b98f16e99fa4616ce605b4a3e722ba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/501042821f493fb39919e871087ac82cfbc62c0c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6fd64a55d5937aea122aa1e5edfc5065e417762/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/f42402a86406f9ae05b1020c858b02df7b5f6774/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_265a022753c03aa61783980dd18f970db12ad3bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/f1d14ba6f5f5604ac2ecf268df901b952209f908/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35f33fdcc2975b10c57e677dc56bfdba72da937b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/e19db46583d80bde49e32cf951254f936c6ea1f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5716de507c40f1e8350bfcb12794b8f92b16fd76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/a182472f99fdd3cbf96eb3f85a49efc7d69dfc99/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_92329f769cf56fb0b72094168a2f49da2521f8e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/0a0e1e11a0fa5d34311194d0551ad9811ff7c461/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a39318d4f927276a06b5cecc931e3992c25464b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_f2a97ae51b8990bc3e4e7f7232876109e833a99f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5912ca6aef2ca7c6c816a8ca20655b83d6bae35d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/7b14ee2c09b6397892fc81ac7fe3aa79038776ba/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="96b62f3955b0ecd6321d9ce491d0891b60d34cfb">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1064f5c00476a933eed08e02bf37b44aa0b41b79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/721c09c65c97c28768e071640ae6d4ef0e7bac4d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f60d3de16fad3208634f08bce1d123c5ee64c135/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/8d106d0bfa11513cfb147f3f95c12d7b53068ec6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e7c4fa0724a33febf2bf74d02dd4c2495f5a4a63/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/c8ff970321eff75a956599386b3afc8f69d2c334/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_41471672d164283b05c276f08f768c573df3f627/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/4d06221190d50f939d29993f25b860622373a2b6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a637ea73d78e58f13decdc721b01817d39941f10">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_45b205a5dcffe3dbcf50c2e1f7040412237ecf50/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/7d686039c1d5faa6783ac1ec49e87ff6670f9c04/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5f88fd8785474e46601c39113db576075373b7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/e6e2660580b22c6d5fc4f7084c96665a2f81e16d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2a041edf83cdd3eeb799eb9aba0a8858744520cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/b0c2862395a5b05f785eec053041bbc138f0979b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dbe95b25f5090fe40b31576242e865a49633f801/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/4fcf654c865ee359f97789421a53b73eee5e02e8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="fab3c7faab3bc30df0fbf2cbebfcb21753c95260">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a4f8861b20d570e3166a678946859bb4f91b0a16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a3801ec5c0c24cf2d6b799379c62d1c61ea02765">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d16abd8ded44d2800eebf88ee310a865188e56c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_aded4d503be48ff9a58d8ef924b75bc3b358129b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/8801b895a581125f5fccce7e2b25bad4d897d9ef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_adffc07947789575728d2344a5f98e2c79982fc1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/f419732d405a38e108c0b11f5af0ce6d88f2db4a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="988c86d844987febfa8cd87c8dd95c56752a3662">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6f306c4ba4d002516e941a1dde11f052d82414b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_bba096a268d172d1ca8654e7b27976aedb86eba3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/083b80d99ab4807c86da1cb02fbd8d36da52c54b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_873f82a4b2aee51e3043c76a0f29ce3bc4655530/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/7e35956f7a8d71316f87764ab11fe743265ede85/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_24202e287f28510ad15313c45790e344688182ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-cli-1.2_9b92745879bdda02e28ba033484656aa02c8533c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/d775711416abf882057cf308b77de52fe8330b19/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7fd6c5991df7f9e7906f50a4f2b7558636a29697">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d7cb8a1dee8f19ec4798e03b22c4ae88a9e9137/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/c8d6122a278c7cf8ae3d9de53fa5c1887a8b401f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0a6b088a998e231ddf4ecbcb9bf70727da09d958/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/e9dc726ca629f6321aa388d4f768e6eceaf4e913/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b4c808fc63023da9e556df8762bc1a35585bbedb">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_12e99152b79852145b0fa4cf55688a529e9b122b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/io.hypertrack/mqttv3/1.1.2/67041b6980e4d00480ad128b40bb05c706a50f6c/mqttv3-1.1.2-release.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="67041b6980e4d00480ad128b40bb05c706a50f6c">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/mqttv3-1.1.2-release_408f8ca4f317709d6be6086d724dd7d19d73d9f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_c432c64a32297a5c9892487eb4792075f89eed2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/2d1156ba4b8f97914c3fdaf334bee850e677f87e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ffde64dbb0fc07c8b9735c6c42a06a36be15ed13">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3fbe77462cadf8185a17d50814da416f1db31516/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/631cdefdc91af97d4755b44ee51dd98b37989510/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8dadb2a71627c5913da99a1d46123a0e307d0abf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/db1da1fb4403f2b04100626cc5bfc5367527ed01/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0779727f9360172629db9338847f39fff6a64c7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.googlecode.libphonenumber/libphonenumber/8.4.2/c98a9536bc4699294159f6f7526c1eccd9324e4d/libphonenumber-8.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c98a9536bc4699294159f6f7526c1eccd9324e4d">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/libphonenumber-8.4.2_7a81df0847603b8fee9aaff5ab0a2bade07186fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/325e8cfde68df3f330b0b3d2d310ff8a23d2d4b4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b42cf2134829f715edfa2adaf0ee246631322dba">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0fdc43c274ee43af4830355788bca9f45f951a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/8c2de015c6edd83e5ffdce0e2ab0ea6af345ed39/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cbd3bdd636f11995d04ed112791eb790d6d42694/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_998ce8c22a1aaaf6287230a79a5099bc0f3e730b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_e83baf2de4ea4bc9552aa863aa942db3807947bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/ec90bb026da56f7beaa118d8532a102bcc18d8ed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a7cf2a41aedccc427107ebb37762a5e2f5be590">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f71d4c3673666def43bcba3476871115d04a63ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_9277bfe3c2f96206337a3af50615b883b0b9c5db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/41a2b9cde9f8400784992f3b14eeb2268be4e41e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3651b9b40df3e249f5422d09ce0a10779613cbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/afcf098cceaccde69bc8a112e830408ae648ad00/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1870ed0c7b403d3133b0dc7aae2163b93834e7f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/fb90af91b90c30fd778da128e4c83d7c89fc7e74/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40defbb6004a561307d4f3ee14d1e0b919382ecc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/9a81b8838bb03e777395aa411b139dbcbaee2f03/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69c9fcd48f48e2d4534b375a8c7b6467ea6132b6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/1d9eb279d99b4104b9e052ab09008ada879e1db2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c92f2300efc61cd335166af30bfd34d528114598">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b81a7e76c4c07d4d3241f17d2994d4fdb9d9eed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/4e7f7bb6ec7adc9e207f2c2fab486f1e809b430e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="23e3acde10f4cf52778f8dc88107fb96459f2392">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ce31c7efae5cb06cf84ed977c47d1e7e78d8240/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/80072366f9a427f31663eb9d4eab7fc536ca9eca/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3174460dcee626e0fea057c72f08e2204945e1a4">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_19f750ab331f7be5e9fbd32029dfb5c23a17b0a1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/ef37754511aeca46475f90cea477b2107120a29f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_152c8cac6c28ebeef492daf494597f5fc5674f26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/0201ae553000c0e7119d4a6e851a1238e3f382ab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e3376f705dc1863a8782faf275e56f188b8129eb">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bb4508a6e846262a969b2fa37ed30c497cf43e2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/6de4aa796c79dbe164705825f7299ad3cfeb85e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1de15267b03577af7a8753d40f16834ef4f68f30">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bcf0397d827cf22acc4ac5c7b804c57c2570553b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/8c6a1bdc6cdc74fa0a17ba2dcf70d55c17f9bcad/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0d4f1a861aba435d45b1497a4f9d7ba07f248f17">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac8fc7cb84362756c3ebee32f7293db9df8cd496/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.android/build-cache/57510dbd005fc83416368557f47df6b9def5814c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3b813cd1a6c6fe1c61fb0e6876f7d09067ba19fb">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84a30619a80ef06bf594e6ead2b1e3a863a541a8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mac/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/mac/Desktop/hypertrack-live-android/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_18c9c0f7a47959d7113406fac53154a0795c3f61/classes.dex" />
+    </item>
+
+</items>

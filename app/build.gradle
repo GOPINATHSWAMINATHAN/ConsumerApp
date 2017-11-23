@@ -1,0 +1,267 @@
+buildscript {
+    repositories {
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://maven.fabric.io/public' }
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.22.0'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    // HyperTrack Repository
+    maven { url 'http://hypertrack-android-sdk.s3-website-us-west-2.amazonaws.com/' }
+    google()
+}
+
+def keyPropertiesFile = rootProject.file("key.properties");
+if (keyPropertiesFile == null || !keyPropertiesFile.exists()) {
+    throw new GradleException("key.properties file is missing that contains HyperTrack Publishable Key." +
+            "\nRefer Step 2 at https://github.com/hypertrack/hypertrack-live-android#to-use-this-app for more info.");
+}
+def keyProperties = new Properties();
+keyProperties.load(new FileInputStream(keyPropertiesFile));
+
+android {
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    lintOptions {
+        abortOnError false
+    }
+
+    /*
+    * Release Build Variant
+    * Add your keystore file to app folder
+    * Create a new keystore.properties file
+    * inside root folder with values
+    * storeFile=<File path of keystore file>
+    * storePassword=
+    * keyAlias=
+    * keyPassword=
+    */
+
+    File keystorePropertiesFile = rootProject.file("keystore.properties");
+    if (keystorePropertiesFile.exists()) {
+        def keystoreProperties = new Properties()
+        keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+        signingConfigs {
+            release {
+                storeFile file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+            }
+        }
+    }
+
+    //Check if Fabric crashlyitcs is configured or not.
+    def fabricCheck = false;
+    File fabricPropertiesFile = rootProject.file("app/fabric.properties");
+    if (fabricPropertiesFile.exists()) {
+        System.out.println("Fabric File Exist");
+        def fabricProperties = new Properties()
+        fabricProperties.load(new FileInputStream(fabricPropertiesFile))
+        String apiSecret = fabricProperties['apiSecret'];
+        if (apiSecret != null && !apiSecret.isEmpty() && !apiSecret.equalsIgnoreCase("CRASHLYTICS_API_SECRET")) {
+            System.out.println("Key Exist");
+            fabricCheck = true;
+        } else {
+            System.out.println("Key Doesnt Exist");
+        }
+    }
+
+    /*
+    *   Set App version using gradle.properties file
+    * */
+    def versionPropsFile = file('gradle.properties')
+    if (versionPropsFile.canRead()) {
+        def Properties versionProps = new Properties()
+
+        versionProps.load(new FileInputStream(versionPropsFile))
+
+        def value = 0
+
+        def runTasks = gradle.startParameter.taskNames
+        if ('cUDD' in runTasks || 'crashlyticsUploadDistributionDebug' in runTasks
+                || 'cUDR' in runTasks || 'crashlyticsUploadDistributionRelease' in runTasks) {
+            value = 1;
+        }
+
+        def versionMajor = 1
+        def versionMinor = 9
+        def versionPatch = versionProps['VERSION_PATCH'].toInteger() + value
+        def versionNumber = versionProps['VERSION_NUMBER'].toInteger() + value
+
+        versionProps['VERSION_PATCH'] = versionPatch.toString()
+        versionProps['VERSION_NUMBER'] = versionNumber.toString()
+        versionProps['version'] = versionMajor + "." + versionMinor + "." + versionPatch
+        versionProps.store(versionPropsFile.newWriter(), null)
+
+        defaultConfig {
+            applicationId "io.hypertrack.sendeta"
+            versionCode versionNumber
+            versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+            minSdkVersion 16
+            targetSdkVersion 25
+            resValue "string", "app_name", "HyperTrack Live"
+            buildConfigField "String", "HYPERTRACK_PK", keyProperties['HYPERTRACK_PUBLISHABLE_KEY']
+            buildConfigField "String", "HYPERTRACK_BASE_URL", '"https://api.hypertrack.com/api/v1/"'
+            resValue "string", "deeplink_scheme", "com.hypertracklive"
+            resValue "string", "tracking_url", "www.trck.at"
+            manifestPlaceholders = [applicationLabel: "@string/app_name"]
+            multiDexEnabled true
+            if (keystorePropertiesFile.exists())
+                signingConfig signingConfigs.release
+            if (findProject(':library') != null)
+                buildConfigField "String", "isHyperTrackLive", '"exist"'
+            else
+                buildConfigField "String", "isHyperTrackLive", '""'
+        }
+
+    } else {
+        throw new GradleException("Could not read version.properties!")
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def newFileName = "HyperTrackLive-${variant.versionName}.apk";
+            def apk = output.outputFile;
+            output.outputFileName = new File(apk.parentFile, newFileName);
+        }
+    }
+
+    buildTypes {
+        release {
+            if (keyProperties['HYPERTRACK_PUBLISHABLE_KEY'] == "pk_test_300ebbb5c363107a433c864b390608a4ae765cbb") {
+                throw new GradleException("Publishable Key is Missing in key.properties file.\nRefer Step 2 at https://github.com/hypertrack/hypertrack-live-android#to-use-this-app for more info.");
+            }
+            debuggable false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (!fabricCheck) {
+                ext.enableCrashlytics = false
+            }
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled false
+            versionNameSuffix '-debug'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (!fabricCheck) {
+                ext.enableCrashlytics = false
+            }
+
+        }
+
+        if (keyProperties['STAGING_HYPERTRACK_PUBLISHABLE_KEY'] != null) {
+            staging {
+                debuggable true
+                minifyEnabled false
+                applicationIdSuffix '.staging'
+                versionNameSuffix '-staging'
+                resValue "string", "app_name", "Staging HyperTrack Live"
+                manifestPlaceholders = [applicationLabel: "@string/app_name"]
+                buildConfigField "String", "HYPERTRACK_PK", keyProperties['STAGING_HYPERTRACK_PUBLISHABLE_KEY']
+                buildConfigField "String", "HYPERTRACK_BASE_URL", '"https://staging-api.hypertrack.com/api/v1/"'
+                if (keystorePropertiesFile.exists())
+                    signingConfig signingConfigs.release
+                if (!fabricCheck) {
+                    ext.enableCrashlytics = false
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+
+    if (findProject(':library') != null) {
+        releaseCompile(project(path: ':library', configuration: 'release')) {
+            transitive = true
+        }
+
+        debugCompile(project(path: ':library', configuration: 'release')) {
+            transitive = true
+        }
+
+        if (keyProperties['STAGING_HYPERTRACK_PUBLISHABLE_KEY'] != null) {
+            stagingCompile(project(path: ':library', configuration: 'debug')) {
+                transitive = true
+            }
+        }
+    } else {
+        compile("com.hypertrack:android:0.4.22:release@aar") {
+            transitive = true;
+        }
+    }
+
+    compile('com.crashlytics.sdk.android:crashlytics:2.6.2@aar') {
+        transitive = true;
+    }
+    if (keyProperties['STAGING_HYPERTRACK_PUBLISHABLE_KEY'] != null) {
+        stagingCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    }
+
+    //Check if SDK library exist or not
+    if (findProject(':library') != null) {
+        println("Library Exist");
+        compile project(':library')
+    } else {
+        println("Library Doesn't Exist");
+    }
+    compile('com.hypertrack:android:0.4.20:release@aar')
+            {
+                transitive = true;
+            }
+    compile 'com.facebook.stetho:stetho:1.5.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.googlecode.libphonenumber:libphonenumber:8.4.2'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.picasso:picasso:2.4.0'
+    compile 'com.github.stfalcon:smsverifycatcher:0.3.1'
+    compile 'com.google.android.gms:play-services-gcm:10.2.0'
+    compile 'com.google.android.gms:play-services-places:10.2.0'
+    compile 'com.google.android.gms:play-services-location:10.2.0'
+    compile 'com.github.sundeepk:compact-calendar-view:1.9.2-beta'
+    compile 'com.github.rubensousa:gravitysnaphelper:1.1'
+    compile 'com.skyfishjy.ripplebackground:library:1.0.1'
+    compile 'com.github.Q42:AndroidScrollingImageView:1.2'
+    compile 'io.branch.sdk.android:library:2.+'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:2.7.22'
+    testCompile 'org.robolectric:robolectric:3.4.2'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+}
+
+/*
+* Enable FCM integration for real time tracking by adding a google-services.json
+* Once you have either an existing account on <a href="https://console.developers.google.com/">Google Developer</a> or a new account <a href="https://console.firebase.google.com">Firebase console</a>, you will need to add <a href="https://support.google.com/firebase/answer/7015592">google-services.json</a> file for your app to remove the below compilation failure.
+*/
+File googleServicesFile = rootProject.file("app/google-services.json");
+if (googleServicesFile.exists()) {
+    System.out.println("Google Service File Exist");
+    apply plugin: 'com.google.gms.google-services'
+}
+
+
+
+apply plugin: 'com.google.gms.google-services'
